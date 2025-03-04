@@ -23,6 +23,8 @@
     * Spring Boot (Java 17)
     * Gradle
     * Gemini API
+* **Reverse proxy:**
+    * nginx 
 * **Containerization:**
     * Docker
     * Docker Compose

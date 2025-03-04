@@ -1,6 +1,6 @@
 
 function getApiUrl() {
-  return "http://localhost:8080";
+  return "/api";
 }
 
 export async function submitJdAndCv(jdFile: File, cvFile: File): Promise<string> {
