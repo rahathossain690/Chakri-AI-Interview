@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="jd" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="api/src/main/resources/static/FW-SWE-I-JD-2.pdf" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="cv" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="api/src/main/resources/static/Resume-Sample-1-Software-Engineer.pdf" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="id" value="73de0dd9-198a-4c9c-a8f0-f6cb19e99dac" />
+              <option name="method" value="POST" />
+              <option name="name" value="Request Entry" />
+              <option name="url" value="http://localhost:8080/chakri/jd-and-cv" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="8c5762da-604d-4502-9814-164320f42732" />
+              <option name="method" value="GET" />
+              <option name="name" value="Get Entry" />
+              <option name="pathVariables">
+                <list>
+                  <pathVariableState>
+                    <option name="key" value="id" />
+                    <option name="value" value="980e1f6e-b5cf-4473-b0e1-7a94eda4c672" />
+                  </pathVariableState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/chakri/question/:id" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;answers&quot;: [&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;,&#10;    &quot;No answer&quot;&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="9f8d9f9f-5a3f-4d49-98ea-b8f3855f5bb6" />
+              <option name="method" value="POST" />
+              <option name="name" value="post answer" />
+              <option name="pathVariables">
+                <list>
+                  <pathVariableState>
+                    <option name="key" value="id" />
+                    <option name="value" value="980e1f6e-b5cf-4473-b0e1-7a94eda4c672" />
+                  </pathVariableState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/chakri/answer/:id" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="54b0a5fc-927a-47d4-b39a-4f01d4626085" />
+              <option name="method" value="GET" />
+              <option name="name" value="Evaluation Score" />
+              <option name="pathVariables">
+                <list>
+                  <pathVariableState>
+                    <option name="key" value="id" />
+                    <option name="value" value="980e1f6e-b5cf-4473-b0e1-7a94eda4c672" />
+                  </pathVariableState>
+                </list>
+              </option>
+              <option name="url" value="http://localhost:8080/chakri/evaluation-score/:id" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="51e4d0b3-b133-41d3-9db3-ef5990a0a5c6" />
+    <option name="version" value="6" />
+  </component>
+</project>

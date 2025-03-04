@@ -1,0 +1,16 @@
+**/*.log
+
+**/.env
+
+**/application.properties
+
+/data
+
+**/*.out
+
+**/node_modules
+**/dist
+**/build
+**/target
+**/logs
+**/log

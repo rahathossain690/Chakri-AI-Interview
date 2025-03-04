@@ -1,0 +1,50 @@
+.file-upload-form {
+    width: 100%; /* Take the whole parent width */
+    max-width: 500px; /* Optional: Set a maximum width */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .file-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

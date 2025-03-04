@@ -1,0 +1,82 @@
+.evaluation-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .evaluation-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .score-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .score-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .score-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .score-value {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #007bff;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .score-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .score-bar {
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 4px;
+  }
+  
+  .loading-evaluation {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #777;
+  }
+
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
